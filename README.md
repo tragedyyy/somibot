@@ -32,9 +32,14 @@ Displays native **SOMI** balance and supported ERC-20 token balances in real tim
 - Python 3.8 or higher  
 - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
 
-### Installation  
+📊 Example Output  
 
-1. Clone the repository:  
-```bash
-git clone https://github.com/your-repo/somnia-wallet-scanner.git
-cd somnia-wallet-scanner
+🔍 Wallet Scan Results
+
+0x1234...abcd
+🌐 Connected via: https://api.infra.mainnet.somnia.network
+🔥 SOMI (Native Gas Token): 15.500000 🔥
+
+✅ USDC.e (Bridged USDC): 100.250000
+✅ ArWSOMI (Arenas Somnia): 50.000000
+✅ WSOMI (Wrapped SOMI): 25.750000
