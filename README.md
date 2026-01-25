@@ -7,7 +7,7 @@ Displays native **SOMI** balance and supported ERC-20 token balances in real tim
 
 ## ✨ Features  
 
-- 📊 **Balance Check**:  
+- 📊 **Balance CheckС:  
   - Native **SOMI** (Gas Token)  
   - Supported ERC-20 tokens:  
     - USDC.e (Bridged USDC)  
@@ -32,12 +32,13 @@ Displays native **SOMI** balance and supported ERC-20 token balances in real tim
 - Python 3.8 or higher  
 - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
 
-📊 Example Output  
+## 📊 Example Output  
 
-🔍 Wallet Scan Results
+🔍 **Wallet Scan Results**
 
 0x1234...abcd
 🌐 Connected via: https://api.infra.mainnet.somnia.network
+
 🔥 SOMI (Native Gas Token): 15.500000 🔥
 
 ✅ USDC.e (Bridged USDC): 100.250000
