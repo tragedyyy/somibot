@@ -8,7 +8,7 @@ import time
 import tweepy
 
 # --- Settings ---
-TOKEN = '8231096426:AAHxREyc5aA2pX8EWd_6Ws3OinEHv7OpcMI'
+TOKEN = '-----------'
 BOT_NAME = "Somnia Pulse"
 EXPLORER_URL = "https://explorer.somnia.network"
 CHART_URL = "https://www.geckoterminal.com/somnia/pools/0xb1a5a70a946667655bf14512599d06acca020f62"
@@ -666,4 +666,5 @@ threading.Thread(target=whale_monitor, daemon=True).start()
 threading.Thread(target=subscription_monitor, daemon=True).start()
 threading.Thread(target=twitter_monitor, daemon=True).start()
 print("SomiBot is running (Whale + Wallet Subscriptions)...")
+
 bot.infinity_polling()
