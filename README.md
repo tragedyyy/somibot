@@ -1,46 +1,31 @@
-# 🔍 Scan Somnia Wallet Bot  
-
-Telegram bot for checking wallet balances in the **Somnia Network**.  
-Displays native **SOMI** balance and supported ERC-20 token balances in real time.  
-
-![Bot Preview](https://img.shields.io/badge/Telegram-Bot-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-green) ![Web3](https://img.shields.io/badge/Web3.py-latest-orange)
-
-## ✨ Features  
-
-- 📊 **Balance CheckС:  
-  - Native **SOMI** (Gas Token)  
-  - Supported ERC-20 tokens:  
-    - USDC.e (Bridged USDC)  
-    - ArWSOMI (Arenas Somnia)  
-    - WSOMI (Wrapped SOMI)  
-- 💰 **Current SOMI price** via CoinGecko API  
-- 🔁 **Automatic fallback** between multiple RPC nodes  
-- 🔄 **Rescan wallet** without re-entering address  
-- ℹ️ **Somnia Network information** (documentation, website, add to wallet)  
-- 👨‍💻 **Developer information**  
-
-## 🛠 Technologies  
-
-- `python-telegram-bot` — Telegram API interaction  
-- `web3.py` — Somnia blockchain interaction  
-- `requests` — fetching token price data  
-- Multiple RPC providers for failover reliability  
-
-## 🚀 Installation and Launch  
-
-### Prerequisites  
-- Python 3.8 or higher  
-- Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
-
-## 📊 Example Output  
-
-🔍 **Wallet Scan Results**
-
-0x1234...abcd
-🌐 Connected via: https://api.infra.mainnet.somnia.network
-
-🔥 SOMI (Native Gas Token): 15.500000 🔥
-
-✅ USDC.e (Bridged USDC): 100.250000
-✅ ArWSOMI (Arenas Somnia): 50.000000
-✅ WSOMI (Wrapped SOMI): 25.750000
+Project Name: Somnia Pulse Bot
+Tagline: Real-Time On-Chain Intelligence for Somnia Network
+Overview
+Somnia Pulse Bot is a comprehensive Telegram monitoring tool built for the Somnia Network ecosystem. It provides real-time blockchain analytics, wallet tracking, whale alerts, and social media notifications — all powered by the Somnia Reactivity SDK.
+Key Features
+Feature
+Description
+🔍 Wallet Scanner
+Instant balance check for SOMI, USDC.e, WSOMI, and ArWSOMI tokens
+🔔 Wallet Subscriptions
+Track any wallet address for incoming/outgoing transactions (SOMI ≥0.01, USDC ≥0.1)
+🐋 Whale Alert
+Monitor large transfers ≥10,000 SOMI and NFT movements ≥100 SOMI (ERC-721/1155)
+📊 DeFi Monitor
+Live price, gas price, 24h volume, TVL, and top liquidity pools from GeckoTerminal
+🐦 Twitter Alerts
+Real-time notifications from @Somnia_Network (checked every 10 minutes)
+📈 Price Chart
+Direct link to GeckoTerminal live trading chart
+🔗 Resource Hub
+Quick access to Docs, Bridge, Explorer, and DoraHacks Hackathon
+Technical Stack
+Blockchain: Somnia Network (Web3.py)
+APIs: GeckoTerminal, CoinGecko, Twitter API v2
+Framework: Python + TeleBot (Telegram Bot API)
+Monitoring: Multi-threaded real-time block scanning
+Use Cases
+🎯 Traders — Track whale movements and market activity
+🛡️ Users — Monitor personal wallet security
+📈 Investors — Stay updated on DeFi metrics and official announcements
+👨‍ Developers — Reference implementation for Somnia Reactivity
