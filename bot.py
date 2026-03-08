@@ -4,7 +4,7 @@ from web3 import Web3
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # === НАСТРОЙКИ ===
-TOKEN = '8231096426:AAHxREyc5aA2pX8EWd_6Ws3OinEHv7OpcMI'
+TOKEN = '------'
 BOT_NAME = "Scan Somnia Wallet"
 
 # Список RPC (с fallback на случай проблем с одним из них)
